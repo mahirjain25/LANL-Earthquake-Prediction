@@ -1,13 +1,6 @@
 # LANL-Earthquake-Prediction
 Submissions for the Kaggle competition found here: https://www.kaggle.com/c/LANL-Earthquake-Prediction
 
-
-Team Members: 
-* Mahir Jain
-* Darshan DV
-* Suraj Singh
-
-
 ## Competition Description
 
 Given a segment of an acoustic signal, one must predict the _'time\_to\_failure'_, or in other words, time before the next laboratory earthquake. The metric used for model evaluation is **Mean Absolute Error (MAE)**. 
@@ -29,3 +22,10 @@ Since the aim of this approach was just to create a baseline model, and set up t
 
 #### Kaggle Score for Approach
 We got **MAE=1.800** on the Public Leaderboard for this approach.
+
+### Approach 2
+
+The difference here is in the way features have been extracted, as well as the carrying out of K-Fold cross validation. Further, the notebook contains several data visualisations.
+
+#### Kaggle Score for Approach
+We got **MAE=1.999** on the Public Leaderboard for this approach.
